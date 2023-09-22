@@ -26,4 +26,4 @@ distances = {
 
 for planet in masses:
     force = calculate_gravitational_force(masses['Земля'], masses[planet], masses[planet])
-    print(f"Притяжение между Землей и {planet}: {force} Н")
+    print("Притяжение между Землей и {planet}: {force} Н")
